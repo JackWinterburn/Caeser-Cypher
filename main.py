@@ -14,7 +14,7 @@ for x in range(key):
     shifted_alphabet.append(temp)
 
 def decode():
-    encrypted_message = input("What is the encrypted message?")
+    encrypted_message = input("What is the encrypted message?").lower()
     decrypted_message = ""
     for char in encrypted_message:
         if char in alphabet:
